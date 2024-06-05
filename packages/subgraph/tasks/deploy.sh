@@ -132,7 +132,7 @@ deploy_to_goldsky() {
     )
 
     local goldskyNetwork="${legacyNetworkNames[$network]:-$network}"
-    local subgraphName="protocol-$DEPLOYMENT_ENV-$goldskyNetwork/$VERSION_LABEL"
+    local subgraphName="protocol-$DEPLOYMENT_ENV-$goldskyNetwork/1.0.0"
 
     $GRAPH_CLI build
     # Note: when using Graph CLI to deploy, it implicitly triggers build too, but Goldsky CLI doesn't.
