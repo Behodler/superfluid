@@ -1,18 +1,18 @@
 [profile.default]
-root = './'
-src = 'ethereum-contracts/contracts'
-test = 'ethereum-contracts/test/foundry/'
+src = 'contracts'
+test = 'test/foundry/'
+libs = ["lib"]
 solc_version = "0.8.19"
 ignored_error_codes = [5159] # selfdestruct in contracts/mocks/SuperfluidDestructorMock.sol
 # deny_warnings = true
 # keep in sync with truffle-config.js
 evm_version = 'paris'
 remappings = [
-    '@ethereum-contracts/contracts/=packages/ethereum-contracts/contracts/',
+    '@ethereum-contracts/contracts/=contracts/',
     '@openzeppelin/=node_modules/@openzeppelin/',
     'ds-test/=lib/forge-std/lib/ds-test/src/',
     'forge-std/=lib/forge-std/src/']
-out = 'ethereum-contracts/build/foundry/default'
+out = 'build/foundry/default'
 
 [invariant]
 runs = 2000
