@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity 0.8.19;
+pragma solidity 0.8.20;
 
 // code taken from:
 // https://github.com/superfluid-finance/super-examples/blob/main/projects/flow-splitter/contracts/FlowSplitter.sol
@@ -7,12 +7,12 @@ pragma solidity 0.8.19;
 // Uncomment this line to use console.log
 // import "hardhat/console.sol";
 
-import { SuperTokenV1Library } from "@superfluid-finance/ethereum-contracts/contracts/apps/SuperTokenV1Library.sol";
-import { SuperAppBaseFlow } from "@superfluid-finance/ethereum-contracts/contracts/apps/SuperAppBaseFlow.sol";
+import { SuperTokenV1Library } from "@ethereum-contracts/contracts/apps/SuperTokenV1Library.sol";
+import { SuperAppBaseFlow } from "@ethereum-contracts/contracts/apps/SuperAppBaseFlow.sol";
 import {
     ISuperfluid,
     ISuperToken
-} from "@superfluid-finance/ethereum-contracts/contracts/interfaces/superfluid/ISuperfluid.sol";
+} from "@ethereum-contracts/contracts/interfaces/superfluid/ISuperfluid.sol";
 
 contract FlowSplitter is SuperAppBaseFlow {
     using SuperTokenV1Library for ISuperToken;
