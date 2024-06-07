@@ -7,7 +7,7 @@ import {
     ISuperfluidGovernance,
     ISuperfluidToken
 } from "../interfaces/superfluid/ISuperfluid.sol";
-import { SafeCast } from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import { SafeCast } from "@oz_superfluid/contracts/utils/math/SafeCast.sol";
 import { EventsEmitter } from "../libs/EventsEmitter.sol";
 import { FixedSizeData } from "../libs/FixedSizeData.sol";
 

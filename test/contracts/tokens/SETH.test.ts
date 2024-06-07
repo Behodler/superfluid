@@ -6,7 +6,7 @@ import TestEnvironment from "../../TestEnvironment";
 import {expectCustomError} from "../../utils/expectRevert";
 
 const {web3tx, toBN, toWad} = require("@decentral.ee/web3-helpers");
-const {expectEvent} = require("@openzeppelin/test-helpers");
+const {expectEvent} = require("@oz_superfluid/test-helpers");
 const ISuperTokenFactory = artifacts.require("ISuperTokenFactory");
 const ISETH = artifacts.require("ISETH");
 const SETHProxy = artifacts.require("SETHProxy");

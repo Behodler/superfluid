@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: AGPLv3
 pragma solidity 0.8.20;
 
-import { Context } from "@openzeppelin/contracts/utils/Context.sol";
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import { IERC777 } from "@openzeppelin/contracts/token/ERC777/IERC777.sol";
-import { IERC777Sender } from "@openzeppelin/contracts/token/ERC777/IERC777Sender.sol";
-import { IERC777Recipient } from "@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol";
-import { IERC1820Registry } from "@openzeppelin/contracts/utils/introspection/IERC1820Registry.sol";
+import { Context } from "@oz_superfluid/contracts/utils/Context.sol";
+import { IERC20 } from "@oz_superfluid/contracts/token/ERC20/IERC20.sol";
+import { IERC777 } from "@oz_superfluid/contracts/token/ERC777/IERC777.sol";
+import { IERC777Sender } from "@oz_superfluid/contracts/token/ERC777/IERC777Sender.sol";
+import { IERC777Recipient } from "@oz_superfluid/contracts/token/ERC777/IERC777Recipient.sol";
+import { IERC1820Registry } from "@oz_superfluid/contracts/utils/introspection/IERC1820Registry.sol";
 import {
     ERC1820Implementer, IERC1820Implementer
-} from "@openzeppelin/contracts/utils/introspection/ERC1820Implementer.sol";
+} from "@oz_superfluid/contracts/utils/introspection/ERC1820Implementer.sol";
 
 import { ISuperToken } from "../superfluid/SuperToken.sol";
 

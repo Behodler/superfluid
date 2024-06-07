@@ -13,7 +13,7 @@ import {
 } from "./ERC777.behavior";
 
 const {web3tx, toWad} = require("@decentral.ee/web3-helpers");
-const {expectEvent} = require("@openzeppelin/test-helpers");
+const {expectEvent} = require("@oz_superfluid/test-helpers");
 
 const ERC777SenderRecipientMock = artifacts.require(
     "ERC777SenderRecipientMock"

@@ -14,12 +14,12 @@ import {
 } from "../interfaces/superfluid/ISuperfluid.sol";
 import { SuperfluidToken } from "./SuperfluidToken.sol";
 import { ERC777Helper } from "../libs/ERC777Helper.sol";
-import { SafeERC20 } from "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
-import { SafeMath } from "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import { SafeCast } from "@openzeppelin/contracts/utils/math/SafeCast.sol";
-import { IERC777Recipient } from "@openzeppelin/contracts/token/ERC777/IERC777Recipient.sol";
-import { IERC777Sender } from "@openzeppelin/contracts/token/ERC777/IERC777Sender.sol";
-import { Address } from "@openzeppelin/contracts/utils/Address.sol";
+import { SafeERC20 } from "@oz_superfluid/contracts/token/ERC20/utils/SafeERC20.sol";
+import { SafeMath } from "@oz_superfluid/contracts/utils/math/SafeMath.sol";
+import { SafeCast } from "@oz_superfluid/contracts/utils/math/SafeCast.sol";
+import { IERC777Recipient } from "@oz_superfluid/contracts/token/ERC777/IERC777Recipient.sol";
+import { IERC777Sender } from "@oz_superfluid/contracts/token/ERC777/IERC777Sender.sol";
+import { Address } from "@oz_superfluid/contracts/utils/Address.sol";
 
 /**
  * @title Superfluid's super token implementation

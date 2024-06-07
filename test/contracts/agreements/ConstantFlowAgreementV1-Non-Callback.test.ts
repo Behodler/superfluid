@@ -38,7 +38,7 @@ import {
 } from "./ConstantFlowAgreementV1.behavior";
 import CFADataModel from "./ConstantFlowAgreementV1.data";
 
-const {expectEvent} = require("@openzeppelin/test-helpers");
+const {expectEvent} = require("@oz_superfluid/test-helpers");
 
 describe("CFAv1 | Non-Callback Tests", function () {
     this.timeout(300e3);

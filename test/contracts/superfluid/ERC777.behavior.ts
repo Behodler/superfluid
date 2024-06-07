@@ -6,7 +6,7 @@ import {SuperTokenMock} from "../../../typechain-types";
 import {expectCustomError, expectRevertedWith} from "../../utils/expectRevert";
 
 // NOTE: copied and modified from https://github.com/OpenZeppelin/openzeppelin-contracts/
-const {BN, expectEvent} = require("@openzeppelin/test-helpers");
+const {BN, expectEvent} = require("@oz_superfluid/test-helpers");
 const ZERO_ADDRESS = ethers.constants.AddressZero;
 const ERC777SenderRecipientMock = artifacts.require(
     "ERC777SenderRecipientMock"

@@ -19,7 +19,7 @@ import {
     shouldUpdateSubscription,
 } from "./InstantDistributionAgreementV1.behaviour";
 
-const {expectEvent} = require("@openzeppelin/test-helpers");
+const {expectEvent} = require("@oz_superfluid/test-helpers");
 const IDASuperAppTester = artifacts.require("IDASuperAppTester");
 
 const DEFAULT_INDEX_ID = "42";

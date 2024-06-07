@@ -18,7 +18,7 @@ import {
 import CFADataModel from "./ConstantFlowAgreementV1.data";
 
 const {web3tx} = require("@decentral.ee/web3-helpers");
-const expectEvent = require("@openzeppelin/test-helpers/src/expectEvent");
+const expectEvent = require("@oz_superfluid/test-helpers/src/expectEvent");
 
 //
 // test functions

@@ -8,10 +8,10 @@ pragma solidity 0.8.20;
 import {
     // solhint-disable-next-line no-unused-import
     IERC165, IERC721, IERC721Metadata
-} from "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol";
+} from "@oz_superfluid/contracts/token/ERC721/extensions/IERC721Metadata.sol";
 
 import { UUPSProxiable } from "../upgradability/UUPSProxiable.sol";
-import { Strings } from "@openzeppelin/contracts/utils/Strings.sol";
+import { Strings } from "@oz_superfluid/contracts/utils/Strings.sol";
 import {
     ISuperfluid, ISuperToken, ISuperTokenFactory, IFlowNFTBase, IConstantFlowAgreementV1
 } from "../interfaces/superfluid/ISuperfluid.sol";

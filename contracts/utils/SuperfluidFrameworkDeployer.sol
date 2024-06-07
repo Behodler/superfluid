@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.11;
 
-import { IERC20Metadata } from "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol";
-import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import { IERC20Metadata } from "@oz_superfluid/contracts/token/ERC20/extensions/IERC20Metadata.sol";
+import { IERC20 } from "@oz_superfluid/contracts/token/ERC20/IERC20.sol";
 import { SuperfluidFrameworkDeploymentSteps, TokenDeployerLibrary } from "./SuperfluidFrameworkDeploymentSteps.sol";
 import { ISuperTokenFactory } from "../superfluid/SuperTokenFactory.sol";
 import { SuperToken } from "../superfluid/SuperToken.sol";

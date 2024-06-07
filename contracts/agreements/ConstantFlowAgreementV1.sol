@@ -15,7 +15,7 @@ import {
     IConstantOutflowNFT
 } from "../interfaces/superfluid/ISuperfluid.sol";
 import { AgreementBase } from "./AgreementBase.sol";
-import { SafeCast } from "@openzeppelin/contracts/utils/math/SafeCast.sol";
+import { SafeCast } from "@oz_superfluid/contracts/utils/math/SafeCast.sol";
 import { AgreementLibrary } from "./AgreementLibrary.sol";
 import { SafeGasLibrary } from "../libs/SafeGasLibrary.sol";
 

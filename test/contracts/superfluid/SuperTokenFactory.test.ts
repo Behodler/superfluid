@@ -14,7 +14,7 @@ import {
 import TestEnvironment from "../../TestEnvironment";
 import {expectCustomError, expectRevertedWith} from "../../utils/expectRevert";
 
-const {expectEvent} = require("@openzeppelin/test-helpers");
+const {expectEvent} = require("@oz_superfluid/test-helpers");
 
 describe("SuperTokenFactory Contract", function () {
     this.timeout(300e3);

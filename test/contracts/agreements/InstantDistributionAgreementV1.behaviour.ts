@@ -12,7 +12,7 @@ import {
 } from "./Agreement.types";
 
 const {web3tx, wad4human} = require("@decentral.ee/web3-helpers");
-const {expectEvent} = require("@openzeppelin/test-helpers");
+const {expectEvent} = require("@oz_superfluid/test-helpers");
 
 function _updateIndexData({
     testenv,

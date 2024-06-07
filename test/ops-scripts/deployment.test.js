@@ -12,7 +12,7 @@ const TestToken = artifacts.require("TestToken");
 const UUPSProxiable = artifacts.require("UUPSProxiable");
 const Superfluid = artifacts.require("Superfluid");
 const ISuperTokenFactory = artifacts.require("ISuperTokenFactory");
-const {ZERO_ADDRESS} = require("@openzeppelin/test-helpers").constants;
+const {ZERO_ADDRESS} = require("@oz_superfluid/test-helpers").constants;
 
 contract("Embedded deployment scripts", (accounts) => {
     const errorHandler = (err) => {
